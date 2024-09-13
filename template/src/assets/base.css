@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#app{
+    height: 100vh;
+}
+
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+style {
+    display: none;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid {
+    display: grid;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.w4of5{
+width: 80%;
+}
+.w-full{
+    width: 100%;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.text-indigo-600 {
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+.min-w-10{
+    min-width: 10px;
+}
+.p-2rem {
+    padding: 2rem;
+}
+
+.side-nav-transparent {
+    background-color: transparent;
+}
+.side-nav {
+    z-index: 20;
+    flex: 1 1 auto;
+    flex-shrink: 0;
+    flex-direction: column;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pb-4 {
+    padding-bottom: 1rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.menu-transparent {
+    background-color: transparent;
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+.side-nav-transparent {
+    background-color: transparent;
+}
+
+.side-nav-expand {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+.side-nav {
+    z-index: 20;
+    flex: 1 1 auto;
+    flex-shrink: 0;
+    flex-direction: column;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
