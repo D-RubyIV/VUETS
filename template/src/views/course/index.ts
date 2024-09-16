@@ -6,5 +6,6 @@ type Course = {
   "status": number,
   "title": string,
   "createdDate": string,
-  "updateDate": string
+  "updateDate": string,
+  "file": File,
 }
